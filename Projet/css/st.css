@@ -1,0 +1,134 @@
+
+/*
+*	GENERAL
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	max-width: 3000px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	background: url("../img/img.jpeg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-attachment:fixed;
+	font-weight : bolder;
+	border-bottom:1px solid black ;
+	/*border-style: outset;
+*/}
+
+#page {
+}
+
+/*
+*	HEADER
+*/
+
+header {
+	padding:right;
+	display: flex;
+	justify-content: space-between;
+}
+
+#gauche{
+	display: flex;
+	align-items: center;
+	width: 440px;
+}
+
+#gauche ul{
+	display: flex;
+	padding-left: 0px;
+	text-align: center;
+}
+
+#gauche ul li{
+	list-style: none;
+	margin-left: 40px;
+}
+
+#gauche ul li a{
+	font-size: 13px;
+	text-decoration: none;
+	color: white;
+}
+
+#gauche ul li a:hover{
+	/*color: grey;*/
+	box-shadow: 1px 1px 1px 1px ;
+	font-size:15px;
+	padding: 10px;
+	border-width: 50px;
+
+	border-radius: 20px;
+
+}
+
+#mid{
+	align-items: center;
+	display: flex;
+}
+
+#mid img {
+	height: 150px;
+	width: 180px;
+	margin-right: 5px;
+	margin-left: 20px;
+}
+
+#faireDon a{
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+}
+#faireDon a:hover{
+	color: grey;
+	border-bottom: 2px solid grey;
+}
+
+#inscon a{
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+#inscon a:hover{
+	color: grey;
+	border-bottom: 2px solid grey;
+}
+
+#droite{
+	width: 440px;
+	margin-right: 50px;
+	display: flex;
+	align-items: center;
+}
+
+#droite div{
+	align-self: flex-start;
+	margin-top: 15px;
+}
+
+#droite div a{
+	margin-right: 15px; 
+}
+
+#droite div a img{
+	margin-top: 50px;
+	width: 25px;  
+	height: 25px;
+}
+#bar {
+	width: 300px;
+	height: 30px;
+}
+#loupe{
+ 	cursor : pointer;
+	background-color: rgba(0,0,0,0);
+	border:none;
+	width:20px;
+	height:20px;
+}

@@ -1,0 +1,426 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #bdc3c7;
+}
+#espace-admin {
+	background-color: #ecf0f1;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+
+#bar-gauche {
+	margin-left: 0;
+	width: 100px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: #3e3c3d;
+}
+
+#bar-gauche #logo {
+	margin-top: 15px;
+}
+
+#bar-gauche ul{
+	padding: 0;
+}
+
+
+#bar-gauche li{
+	margin-top: 15px;
+	display: block;
+	list-style: none;
+	border-bottom: 1px solid red;
+}
+
+#bar-gauche li:hover {
+
+	-webkit-filter: brightness(2);
+}
+
+#bar-gauche img {
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: 0 auto;
+}
+
+#bar-gauche a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+#bar-gauche #mem {
+	border-bottom: none;
+}
+
+#bloc-contenu {
+	flex: 1;
+	height: 100%;
+	display: flex;
+	flex-direction: column;	
+}
+
+#bar-header {
+	display: flex;
+	flex-direction: vertical;
+	width: 100%;
+	height: 75px;
+	background-color: #c0392b;
+}
+
+#bar-header #deconnexion {
+	flex: 2;
+	display: block;
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+#bar-header ul {
+	flex: 1;
+}
+#bar-header li {
+	display: inline-block;
+	list-style: none;
+	margin-top: 15px;
+}
+
+#bar-header li a {
+	color: #ecf0f1;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+#bar-header li a:hover {
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+
+#contenu {
+	width: 100%;
+	height: 100%;
+	padding-top: 15px;
+}
+#contenu h3 {
+	text-align: center;
+	color: red;
+	font-size: 25px;
+}
+
+#contenu div {
+	margin: 0 auto;
+}
+
+
+
+#contenu #vue-global{
+	width: 75%;
+	display: flex;
+	flex-direction: vertical;
+	justify-content: space-around;
+}
+
+#contenu #vue-global div {
+	
+	background-color: white;
+	background-image: url("img/pin.png");
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid grey;
+}
+
+#contenu #vue-global div p {
+	
+	text-align: center;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	line-height: 100px;
+	font-size: 50px;
+}
+
+
+#stat-membre p {
+	color: #2980b9;
+	border: 3px solid #2980b9;
+}
+
+
+#stat-article p {
+	color: #d35400;
+	border: 3px solid #d35400;
+}
+
+#stat-mission p {
+	color: #16a085;
+	border: 3px solid #16a085;
+}
+
+
+#contenu #dernier-article {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#contenu #dernier-article h4 { 
+	text-align: center;
+	font-size: 20px;
+	color: grey;
+}
+
+#contenu #dernier-article p { 
+	text-align: justify;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 15px;
+}
+
+
+
+#contenu #dernier-article #lire { 
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	background-color: #1abc9c;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#contenu #dernier-article .article-base {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: white;
+	min-height: 200px;
+}
+
+.article-liens {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.article-liens a {
+	display: inline-block;
+	width: 100px;
+	background-color: #1abc9c;
+	color: white;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.resume {
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+.article-liens a:hover {
+	-webkit-filter: brightness(1.1);
+}
+
+#ecrireArt {
+	display: block;
+	width: 20%;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #d35400;
+	border-radius: 15px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+#ecrireArt:hover {
+
+	-webkit-filter: brightness(1.1);
+}
+
+#date{
+	font-style: italic;
+	margin-bottom: 100px;
+}
+
+#contenu #article {
+	background-color: white;
+	width: 75%;
+	min-height: 400px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#contenu #article p{
+
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+#article-edition {
+	background-color: white;
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+#article-ajout {
+	background-color: white;
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+#success {
+	display: block;
+	width: 30%;
+	color: #2e9659;
+	background-color: lightgreen;
+	margin: 0 auto;
+	border-radius: 30px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#success a {
+	text-decoration: none;
+}
+
+#echec {
+	display: block;
+	width: 30%;
+	color: #c0392b;
+	background-color: #e74c3c;
+	margin: 0 auto;
+	border-radius: 30px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#echec a {
+	text-decoration: none;
+}
+
+
+
+/**************LES DON*************/
+
+.total {
+	display: block;
+	width: 30%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 30px;
+	background-color: white;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+
+}
+
+.total h4 {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #3498db;
+	width: 100%;
+	height: auto;
+}
+
+.total p {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border: 2px solid #2980b9;
+	color: #2980b9;
+	border-radius: 40px;
+	padding: 20px;
+	width: 35px;
+}
+
+#don-base {
+	width: 30%;
+	height: auto;
+	background-color: white;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#don-base h5 {
+	text-align: center;
+	font-size: 15px;
+	background-color: #d35400; 
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#don-base li {
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+#commentaire-base {
+	width: 30%;
+	height: auto;
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#commentaire-base h5 {
+	text-align: center;
+	font-size: 15px;
+	background-color: #d35400; 
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.commentaire-texte {
+	text-align: left; 
+	margin-left: 15px;
+}
+
+#commentaire-value {
+	font-style: italic;
+}
